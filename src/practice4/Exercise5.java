@@ -1,7 +1,5 @@
 package practice4;
 
-import practice2.TextIO;
-
 public class Exercise5 {
 
     /*
