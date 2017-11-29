@@ -1,4 +1,4 @@
-package practice2;
+package ee.itcollege.ics0004.practice2;
 
 public class Exercise4 {
 

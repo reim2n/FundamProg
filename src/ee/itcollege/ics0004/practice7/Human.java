@@ -1,9 +1,12 @@
-package practice7;
+package ee.itcollege.ics0004.practice7;
 
 public class Human {
 
-    public String name;
-    public int age;
+    private String name;
+    private int age;
+
+    public Human() {
+    }
 
     public Human(String name, int age) {
         this.name = name;
@@ -30,4 +33,21 @@ public class Human {
     public String toString() {
         return name + " " + age;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
 }

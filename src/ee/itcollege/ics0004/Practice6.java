@@ -1,6 +1,6 @@
 package ee.itcollege.ics0004;
 
-import practice2.TextIO;
+import ee.itcollege.ics0004.practice2.TextIO;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,6 +10,27 @@ public class Practice6 {
 
     public static void main(String[] args) {
 
+        System.out.println("Please enter a word");
+
+        String input = TextIO.getlnString();
+
+        String[] inputArray = input.split("");
+
+        System.out.print('"');
+
+        for (int i = 0; i < inputArray.length; i++) {
+            if (i != inputArray.length - 1)
+                System.out.print(inputArray[i] + "-");
+            else
+                System.out.print(inputArray[i] + '"');
+        }
+
+//        for (String letter : inputArray) {
+//
+//            System.out.print(letter + "-");
+//
+//        }
+
 
 //        System.out.println(Arrays.toString(args));  //exercise3
 
@@ -17,7 +38,7 @@ public class Practice6 {
 
 //        getRandomName(); //exercise1
 
-        findTheNumberOfAsInAName();
+//        findTheNumberOfAsInAName();
 
     }
 

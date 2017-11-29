@@ -1,7 +1,7 @@
-package practice7;
+package ee.itcollege.ics0004.practice7;
 
-public class Athlete {
-    private String name;
+public class Athlete extends Human {
+
     private Double result;
 
     public Athlete(String name, double result) {
@@ -15,15 +15,6 @@ public class Athlete {
                 getName(), getResult());
     }
 
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Double getResult() {
         return result;
     }
@@ -31,4 +22,5 @@ public class Athlete {
     public void setResult(Double result) {
         this.result = result;
     }
+
 }

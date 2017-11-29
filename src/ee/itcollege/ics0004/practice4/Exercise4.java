@@ -1,6 +1,6 @@
-package practice4;
+package ee.itcollege.ics0004.practice4;
 
-import practice2.TextIO;
+import ee.itcollege.ics0004.practice2.TextIO;
 
 public class Exercise4 {
 

@@ -1,6 +1,6 @@
 package ee.itcollege.ics0004;
 
-import practice2.TextIO;
+import ee.itcollege.ics0004.practice2.TextIO;
 
 public class Practice5 {
 

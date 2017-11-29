@@ -1,6 +1,6 @@
-package practice7;
+package ee.itcollege.ics0004.practice7;
 
-import practice2.TextIO;
+import ee.itcollege.ics0004.practice2.TextIO;
 
 import java.util.ArrayList;
 

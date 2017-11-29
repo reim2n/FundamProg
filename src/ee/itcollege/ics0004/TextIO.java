@@ -1,4 +1,4 @@
-package practice2;
+package ee.itcollege.ics0004.practice2;
 
 import java.io.*;
 import java.util.IllegalFormatException;
