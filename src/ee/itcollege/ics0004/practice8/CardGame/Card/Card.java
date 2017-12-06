@@ -1,4 +1,4 @@
-package ee.itcollege.ics0004.practice8;
+package ee.itcollege.ics0004.practice8.CardGame.Card;
 
 public class Card {
 
@@ -11,6 +11,11 @@ public class Card {
         this.cardSuit = cardSuit;
 
     }
+
+    public CardRank getValue(){
+        return cardRank;
+    }
+
 
     @Override
     public String toString() {

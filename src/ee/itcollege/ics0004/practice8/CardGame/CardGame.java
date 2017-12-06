@@ -1,4 +1,6 @@
-package ee.itcollege.ics0004.practice8;
+package ee.itcollege.ics0004.practice8.CardGame;
+
+import ee.itcollege.ics0004.practice8.CardGame.Card.CardRank;
 
 import java.util.ArrayList;
 
@@ -10,21 +12,11 @@ public class CardGame {
 
         mCardDeck.shuffle();
 
-        ArrayList<Object> hand = new ArrayList<>();
+        CardHand hand = new CardHand(mCardDeck);
 
-        for(int i = 0; i < 5; i++ ){
+        hand.showHand();
 
-            hand.add(mCardDeck.getCardDeck().remove(0));
-
-        }
-
-        for (Object card: hand) {
-
-            System.out.println(card);
-
-        }
-
-
+        System.out.println(hand.checkForPokerHand());
 
         // For deck printout
 //        for (Card card : cardDeck) {

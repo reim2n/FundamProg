@@ -6,11 +6,11 @@ public class Exercise1 {
 
         System.out.println("What's your name?");
 
-        String name = TextIO.getlnString();
+        String name = ee.itcollege.ics0004.practice2.TextIO.getlnString();
 
         System.out.println("What's your shoe size?");
 
-        int shoeSize = TextIO.getlnInt();
+        int shoeSize = ee.itcollege.ics0004.practice2.TextIO.getlnInt();
 
         System.out.println("Your name is " + name + " and your shoe size is " + shoeSize);
     }
